@@ -2,6 +2,7 @@
 using namespace std;
 class Employee
 {
+    private:
     int employeeID;
     string name;
     float salary;
