@@ -1,10 +1,16 @@
-#include<iostream>
-using namesspace std;
+#include <iostream>
+using namespace std;
+
 int main()
 {
-float radius;
-cout<<"Enter radius:";
-cin>>radius;
-cout<<"Area="<<3.14*radius*radius<<endl;
-cout<<"circum="<<2*3.14*radius;
+    float radius, area;
+
+    cout << "Enter radius of circle: ";
+    cin >> radius;
+
+    area = 3.14 * radius * radius;
+
+    cout << "Area of circle = " << area;
+
+    return 0;
 }
