@@ -34,7 +34,7 @@ class StudentExam : public Student
 {
 public:
     int sub1, sub2, sub3, sub4, sub5;
-    float per;
+    float per,sum;
 
     void accept_data()
     {
@@ -75,7 +75,10 @@ public:
 
     void calculate()
     {
-        per = (sub1 + sub2 + sub3 + sub4 + sub5) / 5.0;
+        sum = (sub1+ sub2 + sub3 + sub4+ sub5);
+        per = (sum) / 5.0;
+
+        cout << "\n\nTotal Sum : " << sum;
 
         cout << "\n\nTotal Percentage : " << per;
         cout << "\n-----------------------------------------\n";
