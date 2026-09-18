@@ -19,7 +19,7 @@ class frac{
         cout<<"Result: "<<e<<"/"<<f<<endl;
     }   
 };
-int main()
+int main()k
 {
     frac f;
     f.setdata();
